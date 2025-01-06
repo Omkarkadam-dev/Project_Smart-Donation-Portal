@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Donation Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Smart Donation Portal</h1>
+    <p>Discover charities tailored to your passions and location!</p>
+  </header>
+
+  <main>
+    <section class="preferences">
+      <h2>Your Preferences</h2>
+      <label for="location">Location:</label>
+      <input type="text" id="location" placeholder="Enter your city...">
+
+      <label for="cause">Preferred Cause:</label>
+      <select id="cause">
+        <option value="education">Education</option>
+        <option value="health">Health</option>
+        <option value="environment">Environment</option>
+        <option value="animal-welfare">Animal Welfare</option>
+      </select>
+
+      <button id="find-matches">Find Charities</button>
+    </section>
+
+    <section class="recommendations">
+      <h2>Recommended Charities</h2>
+      <div id="charity-list">
+        <p>Fill out your preferences to see matches!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Smart Donation Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
